@@ -50,7 +50,7 @@ Action readlink_proc(const Tracee *tracee, char result[PATH_MAX],
 	pid_t pid;
 
 	/* TODO: Following assertion fails on some devices
-	 * https://github.com/termux/termux-packages/issues/1679
+	 * https://github.com/linuxdroid/linuxdroid-packages/issues/1679
 	 */
 	//assert(comparison == compare_paths("/proc", base));
 

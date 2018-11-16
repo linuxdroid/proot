@@ -21,7 +21,7 @@ env:
 addons:
   coverity_scan:
     project:
-      name: "termux/proot"
+      name: "linuxdroid/proot"
       description: "proot"
     notification_email: fredrik@fornwall.net
     build_command_prepend:

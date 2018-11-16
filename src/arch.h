@@ -135,7 +135,7 @@ typedef unsigned char byte_t;
     #define HAS_POKEDATA_WORKAROUND true
 
     /* Syscall -2 appears to cause some odd side effects, use -1. */
-    /* See https://github.com/termux/termux-packages/pull/390 */
+    /* See https://github.com/linuxdroid/linuxdroid-packages/pull/390 */
     #undef SYSCALL_AVOIDER
     #define SYSCALL_AVOIDER ((word_t) -1)
 
